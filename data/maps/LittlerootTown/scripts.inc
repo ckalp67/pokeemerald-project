@@ -262,8 +262,16 @@ LittlerootTown_EventScript_Twin::
 LittlerootTown_EventScript_Fisherman::
 	lock
 	faceplayer
+	goto_if_set FLAG_RECEIVED_SUPER_ROD, LittlerootTown_EventScript_Fisherman_HaveRod
 	msgbox LittlerootTown_Text_GiveSuperRod, MSGBOX_DEFAULT
 	giveitem ITEM_SUPER_ROD
+	release
+	end
+
+LittlerootTown_EventScript_Fisherman_HaveRod::
+	lock
+	faceplayer
+	msgbox LittlerootTown_Text_HaveRod, MSGBOX_DEFAULT
 	release
 	end
 
@@ -986,6 +994,9 @@ LittlerootTown_Text_GiveSuperRod:
 	.string "who loves fishing!\p"
 	.string "Here, take this rod and fish to your\n"
 	.string "heart's content!$"
+
+LittlerootTown_Text_HaveRod:
+	.string "Have fun fishing!$"
 
 LittlerootTown_Text_DangerousIfYouDontHavePokemon:
 	.string "It's dangerous if you don't have\n"
