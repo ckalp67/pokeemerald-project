@@ -262,9 +262,11 @@ LittlerootTown_EventScript_Twin::
 LittlerootTown_EventScript_Fisherman::
 	lock
 	faceplayer
+	goto_if_set FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG, LittlerootTown_EventScript_Fisherman_NoPokes
 	goto_if_set FLAG_RECEIVED_SUPER_ROD, LittlerootTown_EventScript_Fisherman_HaveRod
 	msgbox LittlerootTown_Text_GiveSuperRod, MSGBOX_DEFAULT
 	giveitem ITEM_SUPER_ROD
+	setflag FLAG_RECEIVED_SUPER_ROD
 	release
 	end
 
@@ -272,6 +274,13 @@ LittlerootTown_EventScript_Fisherman_HaveRod::
 	lock
 	faceplayer
 	msgbox LittlerootTown_Text_HaveRod, MSGBOX_DEFAULT
+	release
+	end
+
+LittlerootTown_EventScript_Fisherman_NoPokes::
+	lock
+	faceplayer
+	msgbox LittlerootTown_Text_Fisherman_NoPokes, MSGBOX_DEFAULT
 	release
 	end
 
@@ -997,6 +1006,9 @@ LittlerootTown_Text_GiveSuperRod:
 
 LittlerootTown_Text_HaveRod:
 	.string "Have fun fishing!$"
+
+LittlerootTown_Text_Fisherman_NoPokes:
+	.string "Man I love fishing!$"
 
 LittlerootTown_Text_DangerousIfYouDontHavePokemon:
 	.string "It's dangerous if you don't have\n"
