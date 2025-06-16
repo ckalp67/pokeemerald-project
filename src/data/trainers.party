@@ -9510,9 +9510,10 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Treecko
+Grookey
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Nature: Adamant
 
 === TRAINER_BRENDAN_ROUTE_110_MUDKIP ===
 Name: BRENDAN
@@ -9565,9 +9566,10 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
-Torchic
+Scorbunny
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Nature: Jolly
 
 === TRAINER_BRENDAN_ROUTE_110_TREECKO ===
 Name: BRENDAN
@@ -9620,9 +9622,10 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Mudkip
+Sobble
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Nature: Jolly
 
 === TRAINER_BRENDAN_ROUTE_110_TORCHIC ===
 Name: BRENDAN
@@ -9675,9 +9678,10 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Treecko
+Grookey
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Nature: Adamant
 
 === TRAINER_MAY_ROUTE_110_MUDKIP ===
 Name: MAY
@@ -9730,9 +9734,10 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Torchic
+Scorbunny
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Nature: Jolly
 
 === TRAINER_MAY_ROUTE_110_TREECKO ===
 Name: MAY
@@ -9785,9 +9790,10 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Mudkip
+Sobble
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Nature: Modest
 
 === TRAINER_MAY_ROUTE_110_TORCHIC ===
 Name: MAY

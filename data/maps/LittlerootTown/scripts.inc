@@ -901,6 +901,7 @@ LittlerootTown_EventScript_GiveRunningShoes::
 	msgbox LittlerootTown_Text_ExplainRunningShoes, MSGBOX_DEFAULT
 	msgbox LittlerootTown_Text_ComeHomeIfAnythingHappens, MSGBOX_DEFAULT
 	closemessage
+	giveitem ITEM_INFINITE_REPEL
 	delay 30
 	return
 
@@ -950,6 +951,9 @@ LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "Your father will be overjoyed.\p"
 	.string "…But please be careful.\n"
 	.string "If anything happens, you can come home.\p"
+	.string "Oh right! Professor Birch also wanted\n"
+	.string "me to give you this, it'll help keep\l"
+	.string "you safe from wild POKéMON!\p"
 	.string "Go on, go get them, honey!$"
 
 LittlerootTown_Text_CanUsePCToStoreItems:

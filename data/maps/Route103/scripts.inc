@@ -90,11 +90,13 @@ Route103_EventScript_StartBrendanBattleMudkip::
 
 Route103_EventScript_AfterMayBattle::
 	msgbox Route103_Text_MayTimeToHeadBack, MSGBOX_DEFAULT
+	giveitem ITEM_ENDLESS_CANDY
 	goto Route103_EventScript_RivalExit
 	end
 
 Route103_EventScript_AfterBrendanBattle::
 	msgbox Route103_Text_BrendanTimeToHeadBack, MSGBOX_DEFAULT
+	giveitem ITEM_ENDLESS_CANDY
 	goto Route103_EventScript_RivalExit
 	end
 
@@ -310,6 +312,8 @@ Route103_Text_MayTimeToHeadBack:
 	.string "but it already likes you.\p"
 	.string "You might be able to befriend any\n"
 	.string "kind of POKéMON easily.\p"
+	.string "Here, I have a gift for you. It'll\n"
+	.string "help you grow your POKéMON easier!\p"
 	.string "Well, it's time to head back to\n"
 	.string "the LAB.$"
 
@@ -336,6 +340,8 @@ Route103_Text_BrendanTimeToHeadBack:
 	.string "even though you just got it.\p"
 	.string "{PLAYER}, I get the feeling that you\n"
 	.string "could befriend any POKéMON with ease.\p"
+	.string "Here, I have a gift for you. It'll\n"
+	.string "help you grow your POKéMON easier.\p"
 	.string "We should head back to the LAB.$"
 
 Route103_Text_ShouldHaveBroughtPotion:

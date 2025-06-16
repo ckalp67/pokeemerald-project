@@ -58,7 +58,7 @@
 #define B_TAUNT_TURNS               GEN_LATEST // In Gen5+, Taunt lasts 3 turns if the user acts before the target, or 4 turns if the target acted before the user. In Gen3, taunt lasts 2 turns and in Gen 4, 3-5 turns.
 #define B_SPORT_TURNS               GEN_LATEST // In Gen6+, Water/Mud Sport last 5 turns, even if the user switches out.
 #define B_MEGA_EVO_TURN_ORDER       GEN_LATEST // In Gen7, a Pokémon's Speed after Mega Evolution is used to determine turn order, not its Speed before.
-#define B_RECALC_TURN_AFTER_ACTIONS GEN_LATEST // In Gen8, switching/using a move affects the current turn's order of actions, better known as dynamic speed.
+#define B_RECALC_TURN_AFTER_ACTIONS GEN_8 // In Gen8, switching/using a move affects the current turn's order of actions, better known as dynamic speed.
 #define B_FAINT_SWITCH_IN           GEN_LATEST // In Gen4+, sending out a new Pokémon after the previous one fainted happens at the end of the turn. Before, it would happen after each action.
 
 // Move data settings
@@ -85,7 +85,7 @@
 // Move stat change settings
 #define B_FELL_STINGER_STAT_RAISE   GEN_LATEST // In Gen7+, it raises Atk by 3 stages instead of 2 if it causes the target to faint.
 #define B_KINGS_SHIELD_LOWER_ATK    GEN_LATEST // In Gen8+, it lowers Atk by 1 stage instead of 2 of opponents that hit it.
-#define B_SPEED_BUFFING_RAPID_SPIN  GEN_LATEST // In Gen8, Rapid Spin raises the user's Speed by 1 stage.
+#define B_SPEED_BUFFING_RAPID_SPIN  GEN_8 // In Gen8, Rapid Spin raises the user's Speed by 1 stage.
 #define B_CHARGE_SPDEF_RAISE        GEN_LATEST // In Gen5+, Charge raises the user's Special Defense by 1 stage.
 #define B_MINIMIZE_EVASION          GEN_LATEST // In Gen5+, Minimize raises evasion by 2 stages instead of 1.
 #define B_GROWTH_STAT_RAISE         GEN_LATEST // In Gen5+, Growth raises Attack in addition to Special Attack by 1 stage each. Under the effects of the sun, it raises them by 2 stages each instead.
@@ -111,7 +111,7 @@
 #define B_BURN_HIT_THAW             GEN_LATEST // In Gen6+, damaging moves with a chance of burn will thaw the target, regardless if they're fire-type moves or not.
 #define B_HEALING_WISH_SWITCH       GEN_LATEST // In Gen5+, the mon receiving Healing Wish is sent out at the end of the turn.
                                                // Additionally, in gen8+ the Healing Wish's effect will be stored until the user switches into a statused or hurt mon.
-#define B_DEFOG_EFFECT_CLEARING     GEN_LATEST // In Gen6+, Defog clears Spikes, Toxic Spikes, Stealth Rock and Sticky Web from both sides. In Gen8+, Defog also clears active Terrain.
+#define B_DEFOG_EFFECT_CLEARING     GEN_7 // In Gen6+, Defog clears Spikes, Toxic Spikes, Stealth Rock and Sticky Web from both sides. In Gen8+, Defog also clears active Terrain.
 #define B_STOCKPILE_RAISES_DEFS     GEN_LATEST // In Gen4+, Stockpile also raises Defense and Sp. Defense stats. Once Spit Up / Swallow is used, these stat changes are lost.
 #define B_TRANSFORM_SHINY           GEN_LATEST // In Gen4+, Transform will copy the shiny state of the opponent instead of maintaining its own shiny state.
 #define B_TRANSFORM_FORM_CHANGES    GEN_LATEST // In Gen5+, Transformed Pokemon cannot change forms.
@@ -150,9 +150,9 @@
 #define B_TRANSISTOR_BOOST          GEN_LATEST // In Gen9+, Transistor will only boost Electric-type moves by 1.3x as opposed to 1.5x.
 #define B_ILLUMINATE_EFFECT         GEN_LATEST // In Gen9+, Illuminate prevents accuracy reductions and ignores the target's evasion.
 #define B_WEAK_ARMOR_SPEED          GEN_LATEST // In Gen7+, Weak Armor raises Speed by 2 stages instead of 1 when hit by a physical move.
-#define B_PROTEAN_LIBERO            GEN_LATEST // In Gen9+, Protean and Libero change the user's type only once per Battle.
-#define B_INTREPID_SWORD            GEN_LATEST // In Gen9+, Intrepid Sword raises Attack by one stage only once per Battle.
-#define B_DAUNTLESS_SHIELD          GEN_LATEST // In Gen9+, Dauntless Shield raises Defense by one stage only once per Battle.
+#define B_PROTEAN_LIBERO            GEN_8 // In Gen9+, Protean and Libero change the user's type only once per Battle.
+#define B_INTREPID_SWORD            GEN_8 // In Gen9+, Intrepid Sword raises Attack by one stage only once per Battle.
+#define B_DAUNTLESS_SHIELD          GEN_8 // In Gen9+, Dauntless Shield raises Defense by one stage only once per Battle.
 #define B_DISGUISE_HP_LOSS          GEN_LATEST // In Gen8+, when a Disguised Mimikyu's Disguise is busted, upon changing to its Busted Form it loses HP equal to 1/8 of its maximum HP.
 #define B_ABILITY_TRIGGER_CHANCE    GEN_LATEST // In Gen3, Shed Skin, Cute Charm, Flame Body, Static and Poison Point have a 1/3 chance to trigger. In Gen 4+ it's 30%.
                                                // In Gen3, Effect Spore has a 10% chance to sleep, poison or paralyze, with an equal chance.
@@ -237,7 +237,7 @@
 #define B_SHOW_PARTNER_TARGET             FALSE // Shows the battler partner will target.
 
 // Move description menu
-#define B_SHOW_MOVE_DESCRIPTION     TRUE       // Shows move information in battler
+#define B_SHOW_MOVE_DESCRIPTION     FALSE       // Shows move information in battler
 
 // Weather settings
 // Search for 'rain', 'sunny day', and 'hail' for move-specific or species-specific weather interactions.
@@ -344,13 +344,13 @@
 #define SHOW_EFFECTIVENESS_ALWAYS   1           // Always show effectiveness when selecting moves.
 #define SHOW_EFFECTIVENESS_CAUGHT   2           // Only show effectiveness if you've caught a species of the mon.
 #define SHOW_EFFECTIVENESS_SEEN     3           // Only show effectiveness if you've seen a species of the mon.
-#define B_SHOW_EFFECTIVENESS        SHOW_EFFECTIVENESS_SEEN // If not SHOW_EFFECTIVENESS_NEVER, the PP string is replaced by a type effectiveness indicator based off the moves and the opposing side.
+#define B_SHOW_EFFECTIVENESS        SHOW_EFFECTIVENESS_NEVER // If not SHOW_EFFECTIVENESS_NEVER, the PP string is replaced by a type effectiveness indicator based off the moves and the opposing side.
 
 // Pokémon battle sprite settings
 #define B_ENEMY_MON_SHADOW_STYLE        GEN_LATEST // In Gen4+, all enemy Pokemon will have a shadow drawn beneath them.
 
 //  Battle UI settings
-#define B_MOVE_REARRANGEMENT_IN_BATTLE  GEN_LATEST  //  In Gen 4+ move slots cannot be rearranged in battle
+#define B_MOVE_REARRANGEMENT_IN_BATTLE  GEN_3  //  In Gen 4+ move slots cannot be rearranged in battle
 
 #define B_POOL_SETTING_CONSISTENT_RNG       FALSE    // If set to true, the same trainer will always generate the same pool on the same save file
 #define B_POOL_SETTING_USE_FIXED_SEED       FALSE    // If set to true, will use the fixed seed defined in B_POOL_SETTING_FIXED_SEED
