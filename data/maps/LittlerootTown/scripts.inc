@@ -259,6 +259,14 @@ LittlerootTown_EventScript_Twin::
 	release
 	end
 
+LittlerootTown_EventScript_Fisherman::
+	lock
+	faceplayer
+	msgbox LittlerootTown_Text_GiveSuperRod, MSGBOX_DEFAULT
+	giveitem ITEM_SUPER_ROD
+	release
+	end
+
 LittlerootTown_EventScript_GoSaveBirch::
 	special GetPlayerBigGuyGirlString
 	msgbox LittlerootTown_Text_CanYouGoSeeWhatsHappening, MSGBOX_DEFAULT
@@ -972,6 +980,12 @@ LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
 	.string "Um, um, um!\p"
 	.string "If you go outside and go in the grass,\n"
 	.string "wild POKéMON will jump out!$"
+
+LittlerootTown_Text_GiveSuperRod:
+	.string "Hey! You look like the kind of trainer\n"
+	.string "who loves fishing!\p"
+	.string "Here, take this rod and fish to your\n"
+	.string "heart's content!$"
 
 LittlerootTown_Text_DangerousIfYouDontHavePokemon:
 	.string "It's dangerous if you don't have\n"
