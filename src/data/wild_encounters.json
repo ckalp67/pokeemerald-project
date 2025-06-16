@@ -57,8 +57,6 @@
             5
           ],
           "groups": {
-            "old_rod": [],
-            "good_rod": [],
             "super_rod": [
               0,
               1,
@@ -11787,51 +11785,6 @@
         {
           "map": "MAP_LITTLEROOT_TOWN",
           "base_label": "gLittlerootTown",
-          "fishing_mons": {
-            "encounter_rate": 30,
-            "mons": [
-              {
-                "min_level": 3,
-                "max_level": 5,
-                "species": "SPECIES_POLIWAG"
-              },
-              {
-                "min_level": 3,
-                "max_level": 5,
-                "species": "SPECIES_KRABBY"
-              },
-              {
-                "min_level": 3,
-                "max_level": 5,
-                "species": "SPECIES_AZURILL"
-              },
-              {
-                "min_level": 3,
-                "max_level": 5,
-                "species": "SPECIES_CHEWTLE"
-              },
-              {
-                "min_level": 3,
-                "max_level": 5,
-                "species": "SPECIES_BINACLE"
-              },
-              {
-                "min_level": 3,
-                "max_level": 5,
-                "species": "SPECIES_BARBOACH"
-              },
-              {
-                "min_level": 3,
-                "max_level": 5,
-                "species": "SPECIES_WIGLETT"
-              },
-              {
-                "min_level": 3,
-                "max_level": 5,
-                "species": "SPECIES_PYUKUMUKU"
-              }
-            ]
-          },
           "water_mons": {
             "encounter_rate": 4,
             "mons": [
@@ -11874,6 +11827,51 @@
                 "min_level": 31,
                 "max_level": 35,
                 "species": "SPECIES_GOLISOPOD"
+              }
+            ]
+          },
+          "fishing_mons": {
+            "encounter_rate": 30,
+            "mons": [
+              {
+                "min_level": 3,
+                "max_level": 5,
+                "species": "SPECIES_POLIWAG"
+              },
+              {
+                "min_level": 3,
+                "max_level": 5,
+                "species": "SPECIES_KRABBY"
+              },
+              {
+                "min_level": 3,
+                "max_level": 5,
+                "species": "SPECIES_AZURILL"
+              },
+              {
+                "min_level": 3,
+                "max_level": 5,
+                "species": "SPECIES_CHEWTLE"
+              },
+              {
+                "min_level": 3,
+                "max_level": 5,
+                "species": "SPECIES_BINACLE"
+              },
+              {
+                "min_level": 3,
+                "max_level": 5,
+                "species": "SPECIES_BARBOACH"
+              },
+              {
+                "min_level": 3,
+                "max_level": 5,
+                "species": "SPECIES_WIGLETT"
+              },
+              {
+                "min_level": 3,
+                "max_level": 5,
+                "species": "SPECIES_PYUKUMUKU"
               }
             ]
           }
