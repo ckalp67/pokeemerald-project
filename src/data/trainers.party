@@ -5947,11 +5947,31 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Poochyena
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+SPECIES_LECHONK @ Lum Berry
+Level: 14
+Ability: Thick Fat
+Nature: Impish
+- MOVE_ECHOED_VOICE
+
+SPECIES_SMOLIV @ Oran Berry
+Level: 14
+Ability: Harvest
+Nature: Mild
+- MOVE_GROWTH
+- MOVE_ABSORB
+- MOVE_RAZOR_LEAF
+
+SPECIES_RATTATA_ALOLA @ Oran Berry
+Level: 16
+Ability: Hustle
+Nature: Adamant
+- MOVE_BITE
+- MOVE_QUICK_ATTACK
+- MOVE_FOCUS_ENERGY
+
+
 
 === TRAINER_BILLY ===
 Name: BILLY
