@@ -2119,13 +2119,33 @@ Class: Lady
 Pic: Lady
 Gender: Female
 Music: Female
-Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Zigzagoon @ Nugget
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Cherubi @ Oran Berry
+Level: 18
+Ability: Chlorophyll
+Nature: Adamant
+- MOVE_GROWTH
+- MOVE_GRASS_KNOT
+- MOVE_MORNING_SUN
+
+Cottonee @ Oran Berry
+Level: 18
+Ability: Prankster
+Nature: Modest
+- MOVE_STUN_SPORE
+- MOVE_MEGA_DRAIN
+- MOVE_GROWTH
+- MOVE_FAIRY_WIND
+
+Skiploom @ King's Rock
+Level: 18
+Ability: Leaf Guard
+Nature: Jolly
+- MOVE_STUN_SPORE
+- MOVE_BULLET_SEED
+- MOVE_SYNTHESIS
 
 === TRAINER_DAPHNE ===
 Name: DAPHNE
@@ -5949,24 +5969,24 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-SPECIES_LECHONK @ Lum Berry
-Level: 14
+SPECIES_LECHONK @ Oran Berry
+Level: 18
 Ability: Thick Fat
-Nature: Impish
+Nature: Quiet
 - MOVE_ECHOED_VOICE
 
 SPECIES_SMOLIV @ Oran Berry
-Level: 14
+Level: 18
 Ability: Harvest
 Nature: Mild
 - MOVE_GROWTH
 - MOVE_ABSORB
 - MOVE_RAZOR_LEAF
 
-SPECIES_RATTATA_ALOLA @ Oran Berry
-Level: 16
-Ability: Hustle
-Nature: Adamant
+SPECIES_RATTATA_ALOLA @ Ganlon Berry
+Level: 18
+Ability: Gluttony
+Nature: Bashful
 - MOVE_BITE
 - MOVE_QUICK_ATTACK
 - MOVE_FOCUS_ENERGY
@@ -5980,15 +6000,31 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Zigzagoon
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Skwovet @ Ganlon Berry
+Level: 18
+Ability: Cheek Pouch
+Nature: Relaxed
+- MOVE_STUFF_CHEEKS
+- MOVE_STOCKPILE
+- MOVE_SPIT_UP
+- MOVE_SWALLOW
 
-Seedot
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Yungoos @ Oran Berry
+Level: 18
+Ability: Adaptability
+Nature: Jolly
+- MOVE_TACKLE
+- MOVE_WORK_UP
+
+Herdier @ Oran Berry
+Level: 18
+Ability: Intimidate
+Nature: Jolly
+- MOVE_RETALIATE
+- MOVE_WORK_UP
+- MOVE_BITE
 
 === TRAINER_JOSH ===
 Name: JOSH
@@ -6233,15 +6269,30 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Zigzagoon
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wooloo @ Oran Berry
+Level: 18
+Ability: Fluffy
+Nature: Relaxed
+- MOVE_ROUND
+- MOVE_DOUBLE_KICK
 
-Taillow
-Level: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Pidove @ Oran Berry
+Level: 18
+Ability: Super Luck
+Nature: Modest
+- MOVE_AIR_CUTTER
+- MOVE_QUICK_ATTACK 
+
+Purrloin @ Loaded Dice
+Level: 18
+Ability: Prankster
+Nature: Adamant
+- MOVE_FAKE_OUT
+- MOVE_SAND_ATTACK
+- MOVE_TORMENT
+- MOVE_FURY_SWIPES
 
 === TRAINER_TIMMY ===
 Name: TIMMY
@@ -11077,15 +11128,30 @@ Pic: Lass
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Zigzagoon
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Cutiefly @ Wide Lens
+Level: 18
+Ability: Shield Dust
+Nature: Hardy
+- MOVE_DRAINING_KISS
+- MOVE_STUN_SPORE
 
-Shroomish
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Fomantis @ Leftovers
+Level: 18
+Ability: Contrary
+Nature: Impish
+- MOVE_GROWTH
+- MOVE_INGRAIN
+- MOVE_RAZOR_LEAF
+
+Hatenna @ Oran Berry
+Level: 18
+Ability: Magic Bounce
+Nature: Timid
+- MOVE_CONFUSION
+- MOVE_DISARMING_VOICE
+- MOVE_LIFE_DEW
 
 === TRAINER_HALEY_1 ===
 Name: HALEY
@@ -11281,15 +11347,31 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Wurmple
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dottler @ Lum Berry
+Level: 18
+Ability: Swarm
+Nature: Bold
+- MOVE_REFLECT
+- MOVE_LIGHT_SCREEN
+- MOVE_STRUGGLE_BUG
+- MOVE_CONFUSION
 
-Wurmple
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Sewaddle @ Oran Berry
+Level: 18
+Ability: Swarm
+Nature: Adamant
+- MOVE_RAZOR_LEAF
+- MOVE_BUG_BITE
+
+Joltik @ Oran Berry
+Level: 18
+Ability: Unnerve
+Nature: Naive
+- MOVE_ELECTROWEB
+- MOVE_BUG_BITE
+- MOVE_THUNDER_WAVE
 
 === TRAINER_LYLE ===
 Name: LYLE
@@ -13000,11 +13082,31 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Magikarp
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tympole @ Focus Sash
+Level: 18
+Ability: Swift Swim
+Nature: Bashful
+- MOVE_ACID
+- MOVE_MUD_SHOT
+- MOVE_ROUND
+- MOVE_RAIN_DANCE
+
+Chewtle @ Oran Berry
+Level: 18
+Ability: Swift Swim
+Nature: Hasty
+ - MOVE_BITE
+ - MOVE_WATER_GUN
+ - MOVE_RAIN_DANCE
+
+Corphish @ Lum Berry
+Level: 18
+Ability: Adaptability
+Nature: Quiet
+- MOVE_KNOCK_OFF
+- MOVE_BUBBLE_BEAM
 
 === TRAINER_HAILEY ===
 Name: HAILEY
