@@ -2139,7 +2139,7 @@ Nature: Modest
 - MOVE_GROWTH
 - MOVE_FAIRY_WIND
 
-Skiploom @ King's Rock
+Skiploom @ ITEM_KINGS_ROCK
 Level: 18
 Ability: Leaf Guard
 Nature: Jolly
@@ -5989,9 +5989,6 @@ Ability: Gluttony
 Nature: Bashful
 - MOVE_BITE
 - MOVE_QUICK_ATTACK
-- MOVE_FOCUS_ENERGY
-
-
 
 === TRAINER_BILLY ===
 Name: BILLY
@@ -11130,7 +11127,7 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Cutiefly @ Wide Lens
+Cutiefly @ Oran Berry
 Level: 18
 Ability: Shield Dust
 Nature: Hardy
@@ -13097,9 +13094,9 @@ Chewtle @ Oran Berry
 Level: 18
 Ability: Swift Swim
 Nature: Hasty
- - MOVE_BITE
- - MOVE_WATER_GUN
- - MOVE_RAIN_DANCE
+- MOVE_BITE
+- MOVE_WATER_GUN
+- MOVE_RAIN_DANCE
 
 Corphish @ Lum Berry
 Level: 18
