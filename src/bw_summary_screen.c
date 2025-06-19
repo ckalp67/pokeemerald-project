@@ -2372,7 +2372,7 @@ static void ChangeSummaryState(s16 *data, u8 taskId)
         tSkillsState = SKILL_STATE_IVS;
         break;
     case SKILL_STATE_IVS:
-        tSkillsState = SKILL_STATE_EVS;
+        tSkillsState = SKILL_STATE_STATS;
         break;
     case SKILL_STATE_EVS:
         if (BW_SUMMARY_IV_EV_DISPLAY == BW_IV_EV_GRADED)
@@ -2396,7 +2396,7 @@ static void DrawNextSkillsButtonPrompt(u8 mode)
             break;
         case SKILL_STATE_IVS:
             ClearWindowTilemap(PSS_LABEL_WINDOW_PROMPT_IVS);
-            PutWindowTilemap(PSS_LABEL_WINDOW_PROMPT_EVS);
+            PutWindowTilemap(PSS_LABEL_WINDOW_PROMPT_STATS);
             break;
         case SKILL_STATE_EVS:
             if (BW_SUMMARY_IV_EV_DISPLAY == BW_IV_EV_GRADED)
