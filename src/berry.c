@@ -1762,7 +1762,7 @@ bool32 ObjectEventInteractionWaterBerryTree(void)
 
     if (OW_BERRY_MOISTURE)
     {
-        tree->moistureLevel = 100;
+        tree->moistureLevel = 2;
         if (OW_BERRY_ALWAYS_WATERABLE)
         {
             return TRUE;
@@ -1849,7 +1849,7 @@ bool32 BerryTreeGrow(struct BerryTree *tree)
         tree->watered = 0;
         tree->berryYield = 0;
         tree->stage = BERRY_STAGE_SPROUTED;
-        tree->moistureLevel = 100;
+        tree->moistureLevel = 2;
         if (++tree->regrowthCount == ((tree->mulch == ITEM_TO_MULCH(ITEM_GOOEY_MULCH)) ? 15 : 10))
             *tree = gBlankBerryTree;
         break;
@@ -1959,7 +1959,7 @@ void PlantBerryTree(u8 id, u8 berry, u8 stage, bool8 allowGrowth)
     tree->berry = berry;
     tree->minutesUntilNextStage = GetMulchAffectedGrowthRate(GetStageDurationByBerryType(berry), tree->mulch, stage);
     tree->stage = stage;
-    tree->moistureLevel = 100;
+    tree->moistureLevel = 2;
     if (OW_BERRY_ALWAYS_WATERABLE)
         tree->berryYield = GetBerryInfo(berry)->maxYield;
     if (stage == BERRY_STAGE_BERRIES)
