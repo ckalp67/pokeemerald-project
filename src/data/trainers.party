@@ -229,12 +229,12 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Basic Trainer
+AI: Basic Trainer / Stall
 
 Mareanie @ Black Sludge
 Level: 18
 Ability: Merciless
-Nature: Bashful
+Nature: Calm
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_TOXIC_SPIKES
 - MOVE_POISON_STING
@@ -264,7 +264,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 Carvanha @ Lum Berry
 Level: 18
 Ability: Rough Skin
-Nature: Bashful
+Nature: Impish
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_POISON_FANG
 - MOVE_BITE
@@ -2581,13 +2581,33 @@ Class: Rich Boy
 Pic: Rich Boy
 Gender: Male
 Music: Rich
-Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Zigzagoon @ Nugget
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Litleo @ Sitrus Berry
+Level: 25
+Ability: Unnerve
+Nature: Lonely
+- MOVE_WORK_UP
+- MOVE_FIRE_FANG
+- MOVE_EMBER
+- MOVE_HEADBUTT
+
+Luxio @ Flame Orb
+Level: 25
+Ability: Guts
+Nature: Naive
+- MOVE_SPARK
+- MOVE_BITE
+- MOVE_ROAR
+
+Thievul @ Throat Spray
+Level: 25
+Ability: Stakeout
+Nature: Bold
+- MOVE_NASTY_PLOT
+- MOVE_SNARL
+
 
 === TRAINER_MOLLIE ===
 Name: MOLLIE
@@ -11452,7 +11472,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 Yanma @ Oran Berry
 Level: 18
 Ability: Speed Boost
-Nature: Bashful
+Nature: Adamant
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_DETECT
 - MOVE_AIR_CUTTER
@@ -11529,15 +11549,31 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Nincada
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ariados @ Lansat Berry
+Level: 25
+Ability: Sniper
+Nature: Adamant
+- MOVE_SHADOW_SNEAK
+- MOVE_FELL_STINGER
+- MOVE_POISON_STING
+- MOVE_SWORDS_DANCE
 
-Nincada
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Kricketune @ Metronome
+Level: 25
+Ability: Technician
+Nature: Adamant
+- MOVE_SING
+- MOVE_FURY_CUTTER
+
+Spidops @ Black Glasses
+Level: 25
+Ability: Stakeout
+Nature: Jolly
+- MOVE_SILK_TRAP
+- MOVE_BUG_BITE
+- MOVE_ASSURANCE
 
 === TRAINER_JAMES_2 ===
 Name: JAMES
