@@ -171,7 +171,7 @@ Route104_PrettyPetalFlowerShop_Text_FlowersBringHappiness:
 Route104_PrettyPetalFlowerShop_Text_YouCanHaveThis:
 	.string "Hello!\p"
 	.string "The more attention you give to flowers,\n"
-	.string "the more beautifully they bloom.\p"
+	.string "the more beautifully they bloom.$"
 
 Route104_PrettyPetalFlowerShop_Text_ImGrowingFlowers:
 	.string "I'm trying to be like my big sisters.\n"

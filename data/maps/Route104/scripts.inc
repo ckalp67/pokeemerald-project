@@ -1034,7 +1034,7 @@ Route104_Text_LikeFillingMouthWithSeedsTakeThis:
 Route104_Text_TMsAreOneTimeUse:
 	.string "A word of advice!\p"
 	.string "A TM, TECHNICAL MACHINE, can be\n"
-	.string "used as many times as you like!.\p"
+	.string "used as many times as you like!.$"
 
 Route104_Text_DontNeedThisTakeIt:
 	.string "This FLOWER SHOP started selling\n"

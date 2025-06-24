@@ -261,7 +261,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_ROCK_SMASH
 - MOVE_FEINT
 
-Carvanha @ Lum Berry
+Carvanha @ Focus Sash
 Level: 18
 Ability: Rough Skin
 Nature: Impish
@@ -2584,7 +2584,7 @@ Music: Rich
 Double Battle: No
 AI: Basic Trainer
 
-Litleo @ Sitrus Berry
+Litleo @ Eviolite
 Level: 25
 Ability: Unnerve
 Nature: Lonely
@@ -6462,19 +6462,40 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Magikarp
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Alomomola @ Damp Rock
+Level: 25
+Ability: Regenerator
+Nature: Careful
+- Flip Turn
+- Rain Dance
 
-Magikarp
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Luvdisc @ Pixie Plate
+Level: 25
+Ability: Swift Swim
+Nature: Modest
+- MOVE_DRAINING_KISS
+- MOVE_WATER_PULSE
+- MOVE_ATTRACT
 
-Magikarp
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Palpitoad @ Rindo Berry
+Level: 25
+Ability: Swift Swim
+Nature: Calm
+- Bubble Beam
+- Round
+- Mud Shot
+- Supersonic
+
+Arrokuda @ Muscle Band
+Level: 25
+Ability: Swift Swim
+Nature: Jolly
+- Peck
+- Aqua Jet
+- Dive
+- Bite
 
 === TRAINER_CLAUDE ===
 Name: CLAUDE
@@ -8939,15 +8960,40 @@ Pic: Twins
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: Basic Trainer / Stall
 
-Seedot
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Nidorina @ Black Sludge
+Level: 25
+Ability: Poison Point
+Nature: Jolly
+- Shadow Claw
+- Toxic
+- Protect
 
-Lotad
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Nidorino @ Black Sludge
+Level: 25
+Ability: Poison Point
+Nature: Adamant
+- Venoshock
+- Poison Jab
+- Protect
+
+Stunky @ Silk Scarf
+Level: 25
+Ability: Stench
+Nature: Mild
+- Venoshock
+- Screech
+- Fury Swipes
+
+Trubbish @ Sitrus Berry
+Level: 25
+Ability: Aftermath
+Nature: Modest
+- Sludge
+- Take Down
+- Stockpile
+- Swallow
 
 === TRAINER_MIU_AND_YUKI ===
 Name: MIU & YUKI
@@ -11227,15 +11273,43 @@ Pic: Lass
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Lotad
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Flittle @ Eviolite
+Level: 25
+Ability: Speed Boost
+Nature: Relaxed
+- MOVE_PLUCK
+- MOVE_PSYBEAM
+- MOVE_QUICK_ATTACK
+- MOVE_DISARMING_VOICE
 
-Shroomish
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Steenee @ ITEM_KINGS_ROCK
+Level: 25
+Ability: Oblivious
+Nature: Adamant
+- MOVE_PLAY_ROUGH
+- MOVE_RAZOR_LEAF
+- MOVE_TRIPLE_AXEL
+- MOVE_ZEN_HEADBUTT
+
+Sinistea @ Sitrus Berry
+Level: 25
+Ability: Cursed Body
+Nature: Adamant
+- Sucker Punch
+- Mega Drain
+- Astonish
+- Confuse Ray
+
+Stufful @ Sitrus Berry
+Level: 25
+Ability: Fluffy
+Nature: Jolly
+- MOVE_STRENGTH
+- MOVE_BRUTAL_SWING
+- MOVE_LOW_SWEEP
+- MOVE_BULLDOZE
 
 === TRAINER_JANICE ===
 Name: JANICE
