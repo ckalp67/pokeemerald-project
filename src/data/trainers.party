@@ -229,11 +229,46 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Stall
 
-Poochyena
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mareanie @ Black Sludge
+Level: 18
+Ability: Merciless
+Nature: Calm
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- MOVE_TOXIC_SPIKES
+- MOVE_POISON_STING
+- MOVE_VENOSHOCK
+- MOVE_WATER_PULSE
+
+SPECIES_CORSOLA_GALAR @ ITEM_NEVER_MELT_ICE
+Level: 18
+Ability: Weak Armor
+Nature: Sassy
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- MOVE_ASTONISH
+- MOVE_DISABLE
+- MOVE_SCREECH
+- MOVE_ICY_WIND
+
+Clobbopus @ Binding Band
+Level: 18
+Ability: Technician
+Nature: Jolly
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- MOVE_BIND
+- MOVE_DETECT
+- MOVE_ROCK_SMASH
+- MOVE_FEINT
+
+Carvanha @ Focus Sash
+Level: 18
+Ability: Rough Skin
+Nature: Impish
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- MOVE_POISON_FANG
+- MOVE_BITE
+- MOVE_AQUA_JET
 
 === TRAINER_MARCEL ===
 Name: MARCEL
@@ -2126,6 +2161,7 @@ Cherubi @ Oran Berry
 Level: 18
 Ability: Chlorophyll
 Nature: Adamant
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_GROWTH
 - MOVE_GRASS_KNOT
 - MOVE_MORNING_SUN
@@ -2134,6 +2170,7 @@ Cottonee @ Oran Berry
 Level: 18
 Ability: Prankster
 Nature: Modest
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_STUN_SPORE
 - MOVE_MEGA_DRAIN
 - MOVE_GROWTH
@@ -2143,6 +2180,7 @@ Skiploom @ ITEM_KINGS_ROCK
 Level: 18
 Ability: Leaf Guard
 Nature: Jolly
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_STUN_SPORE
 - MOVE_BULLET_SEED
 - MOVE_SYNTHESIS
@@ -2543,13 +2581,33 @@ Class: Rich Boy
 Pic: Rich Boy
 Gender: Male
 Music: Rich
-Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Zigzagoon @ Nugget
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Litleo @ Eviolite
+Level: 25
+Ability: Unnerve
+Nature: Lonely
+- MOVE_WORK_UP
+- MOVE_FIRE_FANG
+- MOVE_EMBER
+- MOVE_HEADBUTT
+
+Luxio @ Flame Orb
+Level: 25
+Ability: Guts
+Nature: Naive
+- MOVE_SPARK
+- MOVE_BITE
+- MOVE_ROAR
+
+Thievul @ Throat Spray
+Level: 25
+Ability: Stakeout
+Nature: Bold
+- MOVE_NASTY_PLOT
+- MOVE_SNARL
+
 
 === TRAINER_MOLLIE ===
 Name: MOLLIE
@@ -5973,12 +6031,14 @@ SPECIES_LECHONK @ Oran Berry
 Level: 18
 Ability: Thick Fat
 Nature: Quiet
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_ECHOED_VOICE
 
 SPECIES_SMOLIV @ Oran Berry
 Level: 18
 Ability: Harvest
 Nature: Mild
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_GROWTH
 - MOVE_ABSORB
 - MOVE_RAZOR_LEAF
@@ -5987,6 +6047,7 @@ SPECIES_RATTATA_ALOLA @ Ganlon Berry
 Level: 18
 Ability: Gluttony
 Nature: Bashful
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_BITE
 - MOVE_QUICK_ATTACK
 
@@ -5999,10 +6060,11 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Skwovet @ Ganlon Berry
+Skwovet @ Apicot Berry
 Level: 18
 Ability: Cheek Pouch
 Nature: Relaxed
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_STUFF_CHEEKS
 - MOVE_STOCKPILE
 - MOVE_SPIT_UP
@@ -6012,6 +6074,7 @@ Yungoos @ Oran Berry
 Level: 18
 Ability: Adaptability
 Nature: Jolly
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_TACKLE
 - MOVE_WORK_UP
 
@@ -6019,7 +6082,8 @@ Herdier @ Oran Berry
 Level: 18
 Ability: Intimidate
 Nature: Jolly
-- MOVE_RETALIATE
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- MOVE_TACKLE
 - MOVE_WORK_UP
 - MOVE_BITE
 
@@ -6272,6 +6336,7 @@ Wooloo @ Oran Berry
 Level: 18
 Ability: Fluffy
 Nature: Relaxed
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_ROUND
 - MOVE_DOUBLE_KICK
 
@@ -6279,6 +6344,7 @@ Pidove @ Oran Berry
 Level: 18
 Ability: Super Luck
 Nature: Modest
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_AIR_CUTTER
 - MOVE_QUICK_ATTACK 
 
@@ -6286,6 +6352,7 @@ Purrloin @ Loaded Dice
 Level: 18
 Ability: Prankster
 Nature: Adamant
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_FAKE_OUT
 - MOVE_SAND_ATTACK
 - MOVE_TORMENT
@@ -6395,19 +6462,40 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Magikarp
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Alomomola @ Damp Rock
+Level: 25
+Ability: Regenerator
+Nature: Careful
+- Flip Turn
+- Rain Dance
 
-Magikarp
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Luvdisc @ Pixie Plate
+Level: 25
+Ability: Swift Swim
+Nature: Modest
+- MOVE_DRAINING_KISS
+- MOVE_WATER_PULSE
+- MOVE_ATTRACT
 
-Magikarp
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Palpitoad @ Rindo Berry
+Level: 25
+Ability: Swift Swim
+Nature: Calm
+- Bubble Beam
+- Round
+- Mud Shot
+- Supersonic
+
+Arrokuda @ Muscle Band
+Level: 25
+Ability: Swift Swim
+Nature: Jolly
+- Peck
+- Aqua Jet
+- Dive
+- Bite
 
 === TRAINER_CLAUDE ===
 Name: CLAUDE
@@ -8872,15 +8960,40 @@ Pic: Twins
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: Basic Trainer / Stall
 
-Seedot
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Nidorina @ Black Sludge
+Level: 25
+Ability: Poison Point
+Nature: Jolly
+- Shadow Claw
+- Toxic
+- Protect
 
-Lotad
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Nidorino @ Black Sludge
+Level: 25
+Ability: Poison Point
+Nature: Adamant
+- Venoshock
+- Poison Jab
+- Protect
+
+Stunky @ Silk Scarf
+Level: 25
+Ability: Stench
+Nature: Mild
+- Venoshock
+- Screech
+- Fury Swipes
+
+Trubbish @ Sitrus Berry
+Level: 25
+Ability: Aftermath
+Nature: Modest
+- Sludge
+- Take Down
+- Stockpile
+- Swallow
 
 === TRAINER_MIU_AND_YUKI ===
 Name: MIU & YUKI
@@ -11131,6 +11244,7 @@ Cutiefly @ Oran Berry
 Level: 18
 Ability: Shield Dust
 Nature: Hardy
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_DRAINING_KISS
 - MOVE_STUN_SPORE
 
@@ -11138,6 +11252,7 @@ Fomantis @ Leftovers
 Level: 18
 Ability: Contrary
 Nature: Impish
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_GROWTH
 - MOVE_INGRAIN
 - MOVE_RAZOR_LEAF
@@ -11146,6 +11261,7 @@ Hatenna @ Oran Berry
 Level: 18
 Ability: Magic Bounce
 Nature: Timid
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_CONFUSION
 - MOVE_DISARMING_VOICE
 - MOVE_LIFE_DEW
@@ -11157,15 +11273,43 @@ Pic: Lass
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Lotad
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Flittle @ Eviolite
+Level: 25
+Ability: Speed Boost
+Nature: Relaxed
+- MOVE_PLUCK
+- MOVE_PSYBEAM
+- MOVE_QUICK_ATTACK
+- MOVE_DISARMING_VOICE
 
-Shroomish
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Steenee @ ITEM_KINGS_ROCK
+Level: 25
+Ability: Oblivious
+Nature: Adamant
+- MOVE_PLAY_ROUGH
+- MOVE_RAZOR_LEAF
+- MOVE_TRIPLE_AXEL
+- MOVE_ZEN_HEADBUTT
+
+Sinistea @ Sitrus Berry
+Level: 25
+Ability: Cursed Body
+Nature: Adamant
+- Sucker Punch
+- Mega Drain
+- Astonish
+- Confuse Ray
+
+Stufful @ Sitrus Berry
+Level: 25
+Ability: Fluffy
+Nature: Jolly
+- MOVE_STRENGTH
+- MOVE_BRUTAL_SWING
+- MOVE_LOW_SWEEP
+- MOVE_BULLDOZE
 
 === TRAINER_JANICE ===
 Name: JANICE
@@ -11350,6 +11494,7 @@ Dottler @ Lum Berry
 Level: 18
 Ability: Swarm
 Nature: Bold
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_REFLECT
 - MOVE_LIGHT_SCREEN
 - MOVE_STRUGGLE_BUG
@@ -11359,6 +11504,7 @@ Sewaddle @ Oran Berry
 Level: 18
 Ability: Swarm
 Nature: Adamant
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_RAZOR_LEAF
 - MOVE_BUG_BITE
 
@@ -11366,6 +11512,7 @@ Joltik @ Oran Berry
 Level: 18
 Ability: Unnerve
 Nature: Naive
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_ELECTROWEB
 - MOVE_BUG_BITE
 - MOVE_THUNDER_WAVE
@@ -11377,23 +11524,33 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Wurmple
-Level: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rellor @ Wide Lens
+Level: 18
+Ability: Compound Eyes
+Nature: Brave
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- MOVE_ROLLOUT
 
-Wurmple
-Level: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Shelmet @ Oran Berry
+Level: 18
+Ability: Shell Armor
+Nature: Sassy
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- MOVE_ACID
+- MOVE_CURSE
+- MOVE_STRUGGLE_BUG
+- MOVE_MEGA_DRAIN
 
-Wurmple
-Level: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Wurmple
-Level: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Yanma @ Oran Berry
+Level: 18
+Ability: Speed Boost
+Nature: Adamant
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- MOVE_DETECT
+- MOVE_AIR_CUTTER
+- MOVE_STRUGGLE_BUG
 
 === TRAINER_JOSE ===
 Name: JOSE
@@ -11466,15 +11623,31 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Nincada
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ariados @ Lansat Berry
+Level: 25
+Ability: Sniper
+Nature: Adamant
+- MOVE_SHADOW_SNEAK
+- MOVE_FELL_STINGER
+- MOVE_POISON_STING
+- MOVE_SWORDS_DANCE
 
-Nincada
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Kricketune @ Metronome
+Level: 25
+Ability: Technician
+Nature: Adamant
+- MOVE_SING
+- MOVE_FURY_CUTTER
+
+Spidops @ Black Glasses
+Level: 25
+Ability: Stakeout
+Nature: Jolly
+- MOVE_SILK_TRAP
+- MOVE_BUG_BITE
+- MOVE_ASSURANCE
 
 === TRAINER_JAMES_2 ===
 Name: JAMES
@@ -13085,6 +13258,7 @@ Tympole @ Focus Sash
 Level: 18
 Ability: Swift Swim
 Nature: Bashful
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_ACID
 - MOVE_MUD_SHOT
 - MOVE_ROUND
@@ -13094,6 +13268,7 @@ Chewtle @ Oran Berry
 Level: 18
 Ability: Swift Swim
 Nature: Hasty
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_BITE
 - MOVE_WATER_GUN
 - MOVE_RAIN_DANCE
@@ -13102,6 +13277,7 @@ Corphish @ Lum Berry
 Level: 18
 Ability: Adaptability
 Nature: Quiet
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_KNOCK_OFF
 - MOVE_BUBBLE_BEAM
 

@@ -59,8 +59,8 @@ const struct Berry gBerries[] =
         .firmness = BERRY_FIRMNESS_SOFT,
         .color = BERRY_COLOR_RED,
         .size = 20,
-        .maxYield = YIELD_RATE(3, 5, 15, 20),
-        .minYield = YIELD_RATE(2, 2, 4, 4),
+        .maxYield = 32,
+        .minYield = 16,
         .description1 = COMPOUND_STRING("Blooms with delicate pretty flowers."),
         .description2 = COMPOUND_STRING("The bright red Berry is very spicy."),
         .growthDuration = GROWTH_DURATION(12, 12, 18, 24, 16, 24),
@@ -1762,7 +1762,7 @@ bool32 ObjectEventInteractionWaterBerryTree(void)
 
     if (OW_BERRY_MOISTURE)
     {
-        tree->moistureLevel = 100;
+        tree->moistureLevel = 2;
         if (OW_BERRY_ALWAYS_WATERABLE)
         {
             return TRUE;
@@ -1849,7 +1849,7 @@ bool32 BerryTreeGrow(struct BerryTree *tree)
         tree->watered = 0;
         tree->berryYield = 0;
         tree->stage = BERRY_STAGE_SPROUTED;
-        tree->moistureLevel = 100;
+        tree->moistureLevel = 2;
         if (++tree->regrowthCount == ((tree->mulch == ITEM_TO_MULCH(ITEM_GOOEY_MULCH)) ? 15 : 10))
             *tree = gBlankBerryTree;
         break;
@@ -1959,7 +1959,7 @@ void PlantBerryTree(u8 id, u8 berry, u8 stage, bool8 allowGrowth)
     tree->berry = berry;
     tree->minutesUntilNextStage = GetMulchAffectedGrowthRate(GetStageDurationByBerryType(berry), tree->mulch, stage);
     tree->stage = stage;
-    tree->moistureLevel = 100;
+    tree->moistureLevel = 2;
     if (OW_BERRY_ALWAYS_WATERABLE)
         tree->berryYield = GetBerryInfo(berry)->maxYield;
     if (stage == BERRY_STAGE_BERRIES)
