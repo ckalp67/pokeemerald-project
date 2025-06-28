@@ -168,11 +168,6 @@ Route104_PrettyPetalFlowerShop_Text_FlowersBringHappiness:
 	.string "Flowers bring so much happiness to\n"
 	.string "people, don't they?$"
 
-Route104_PrettyPetalFlowerShop_Text_YouCanHaveThis:
-	.string "Hello!\p"
-	.string "The more attention you give to flowers,\n"
-	.string "the more beautifully they bloom.$"
-
 Route104_PrettyPetalFlowerShop_Text_ImGrowingFlowers:
 	.string "I'm trying to be like my big sisters.\n"
 	.string "I'm growing flowers, too!\p"

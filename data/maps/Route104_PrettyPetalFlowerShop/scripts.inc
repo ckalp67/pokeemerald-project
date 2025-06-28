@@ -62,9 +62,25 @@ Route104_PrettyPetalFlowerShop_Pokemart_Plants:
 Route104_PrettyPetalFlowerShop_EventScript_WailmerPailGirl::
 	lock
 	faceplayer
-	msgbox Route104_PrettyPetalFlowerShop_Text_YouCanHaveThis, MSGBOX_DEFAULT
+	message Route104_PrettyPetalFlowerShop_Text_YouCanHaveThis
+	waitmessage
+	pokemart Route104_PrettyPetalFlowerShop_Berry_Shop
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
+
+	.align 2
+Route104_PrettyPetalFlowerShop_Berry_Shop:
+	.2byte ITEM_ORAN_BERRY
+	.2byte ITEM_SITRUS_BERRY
+	.2byte ITEM_CHERI_BERRY
+	.2byte ITEM_CHESTO_BERRY
+	.2byte ITEM_PECHA_BERRY
+	.2byte ITEM_PERSIM_BERRY
+	.2byte ITEM_RAWST_BERRY
+	.2byte ITEM_ASPEAR_BERRY
+	.2byte ITEM_LEPPA_BERRY
+	pokemartlistend
 
 Route104_PrettyPetalFlowerShop_EventScript_RandomBerryGirl::
 	lock
@@ -85,3 +101,8 @@ Route104_PrettyPetalFlowerShop_EventScript_AlreadyReceivedBerry::
 	msgbox Route104_PrettyPetalFlowerShop_Text_MachineMixesBerries, MSGBOX_DEFAULT
 	release
 	end
+
+Route104_PrettyPetalFlowerShop_Text_YouCanHaveThis:
+	.string "Hello!\p"
+	.string "I have berries for sale, if\n"
+	.string "you're interested?$"

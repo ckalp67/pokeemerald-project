@@ -1,6 +1,30 @@
 RustboroCity_Gym_MapScripts::
 	.byte 0
 
+RustboroCity_Gym_EventScript_StoneTrader::
+	lock
+	faceplayer
+	message gText_CollectRareStones
+	waitmessage
+	pokemart RustboroGym_Mart_StoneTrader
+	msgbox gText_PleaseComeAgainRocks, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+RustboroGym_Mart_StoneTrader:
+	.2byte ITEM_FIRE_STONE
+	.2byte ITEM_WATER_STONE
+	.2byte ITEM_THUNDER_STONE
+	.2byte ITEM_LEAF_STONE
+	.2byte ITEM_MOON_STONE
+	.2byte ITEM_SUN_STONE
+	.2byte ITEM_SHINY_STONE
+	.2byte ITEM_DUSK_STONE
+	.2byte ITEM_DAWN_STONE
+	.2byte ITEM_ICE_STONE
+	pokemartlistend
+
 RustboroCity_Gym_EventScript_Roxanne::
 	trainerbattle_single TRAINER_ROXANNE_1, RustboroCity_Gym_Text_RoxanneIntro, RustboroCity_Gym_Text_RoxanneDefeat, RustboroCity_Gym_EventScript_RoxanneDefeated, NO_MUSIC
 	specialvar VAR_RESULT, ShouldTryRematchBattle
@@ -102,6 +126,23 @@ RustboroCity_Gym_EventScript_RegisterRoxanne::
 	clearflag FLAG_ENABLE_ROXANNE_FIRST_CALL
 	releaseall
 	end
+
+gText_CollectRareStones:
+	.string "Welcome to Ross' Rocks!\p"
+	.string "I'm Ross, the number one collector\n"
+	.string "and trader of rare stones in all\l"
+	.string "of HOENN!\p"
+	.string "Roxanne enjoys my company in the gym\n"
+	.string "here, I've never met another TRAINER\l"
+	.string "who appreciates rocks as much as\l"
+	.string "she does!\p"
+	.string "But maybe you are an appreciator of\n"
+	.string "these glimmering stones as well?$"
+
+gText_PleaseComeAgainRocks:
+	.string "I knew it! Please visit again, it is\n"
+	.string "rare to find someone who truly\l"
+	.string "appreciates the beauty of my stones!$"
 
 RustboroCity_Gym_Text_GymGuideAdvice:
 	.string "Yo, how's it going?\p"
@@ -213,9 +254,7 @@ RustboroCity_Gym_Text_ExplainRockTomb:
 	.string "It not only inflicts damage by dropping\n"
 	.string "rocks, it also lowers SPEED.\p"
 	.string "If you use a TM, it instantly teaches\n"
-	.string "the move to a POKéMON.\p"
-	.string "Remember, a TM can be used only once,\n"
-	.string "so think before you use it.$"
+	.string "the move to a POKéMON.$"
 
 RustboroCity_Gym_Text_RoxannePostBattle:
 	.string "Since you are so strong, you should\n"

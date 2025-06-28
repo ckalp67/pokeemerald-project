@@ -4872,33 +4872,62 @@ Class: Leader
 Pic: Leader Roxanne
 Gender: Female
 Music: Female
-Items: Potion / Potion
 Double Battle: No
 AI: Basic Trainer
 
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
+Klawf @ Sitrus Berry
+Level: 25
+Ability: Anger Shell
+Nature: Calm
 - Rock Tomb
+- Dig
+- Trailblaze
+- Temper Flare
 
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+Carkol @ Passho Berry
+Level: 25
+Ability: Steam Engine
+Nature: Sassy
+- Rock Slide
+- Temper Flare
+- Will-O-Wisp
+- Scorching Sands
 
-Nosepass @ Oran Berry
-Level: 15
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Block
-- Harden
-- Tackle
+SPECIES_GRAVELER_ALOLA @ Assault Vest
+Level: 25
+Ability: Galvanize
+Nature: Hardy
+- Body Slam
+- Rock Slide
+- Thunder Wave
+- Fire Punch
+
+Carbink @ Leftovers
+Level: 25
+Ability: Clear Body
+Nature: Sassy
+- Dazzling Gleam
+- Protect
+- Body Press
+- Iron Defense
+
+Minior @ Salac Berry
+Level: 25
+Ability: Shields Down
+Nature: Hardy
+- Confuse Ray
+- Ancient Power
+- Charge Beam
+- Acrobatics
+
+SPECIES_LYCANROC_MIDNIGHT @ Luminous Moss
+Level: 25
+Ability: Vital Spirit
+Nature: Bold
+- Reversal
+- Endure
 - Rock Tomb
+- Fire Fang
 
 === TRAINER_BRAWLY_1 ===
 Name: BRAWLY
@@ -6094,12 +6123,34 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Geodude
-Level: 10
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
+Naclstack @ Assault Vest
+Level: 25
+Ability: Purifying Salt
+Nature: Sassy
+- Salt Cure
+- Curse
+- Body Press
+- Iron Head
+
+SPECIES_GROWLITHE_HISUI @ Passho Berry
+Level: 25
+Ability: Intimidate
+Nature: Jolly
+- Fire Fang
+- Thunder Fang
+- Rock Tomb
+- Howl
+
+Onix @ Leftovers
+Level: 25
+Ability: Sturdy
+Nature: Careful
+- Rock Slide
+- Substitute
+- Bulldoze
+- Dragon Dance
 
 === TRAINER_TOMMY ===
 Name: TOMMY
@@ -6108,15 +6159,34 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Geodude
-Level: 8
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+Corsola @ Rindo Berry
+Level: 25
+Ability: Hustle
+Nature: Relaxed
+- Ancient Power
+- Icy Wind
+- Water Pulse
+- Psychic
 
-Geodude
-Level: 8
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+Sudowoodo @ Muscle Band
+Level: 25
+Ability: Rattled
+Nature: Brave
+- Rock Tomb
+- Block
+- Fire Punch
+- Thunder Punch
+
+Amaura @ Sitrus Berry
+Level: 25
+Ability: Refrigerate
+Nature: Bold
+- Aurora Beam
+- Ancient Power
+- Thunder Wave
+- Icy Wind
 
 === TRAINER_JOEY ===
 Name: JOEY
@@ -10745,15 +10815,43 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Geodude
-Level: 8
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+Dwebble @ Sitrus Berry
+Level: 25
+Ability: Sturdy
+Nature: Careful
+- Stealth Rock
+- Rock Slide
+- Bug Bite
+- Solar Beam
 
-Geodude
-Level: 8
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+Nosepass @ Sitrus Berry
+Level: 25
+Ability: Sturdy
+Nature: Sassy
+- Power Gem
+- Rock Slide
+- Thunder Wave
+- Volt Switch
+
+Lileep @ Big Root
+Level: 25
+Ability: Storm Drain 
+Nature: Quiet
+- Mega Drain
+- Ingrain
+- Ancient Power
+- Protect
+
+Tyrunt @ Lum Berry
+Level: 25
+Ability: Sturdy
+Nature: Jolly
+- Dragon Tail
+- Bite
+- Rock Tomb
+- Psychic Fangs
 
 === TRAINER_BRENDEN ===
 Name: BRENDEN
