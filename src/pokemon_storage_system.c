@@ -44,6 +44,7 @@
 #include "constants/rgb.h"
 #include "constants/songs.h"
 #include "constants/pokemon_icon.h"
+#include "script_pokemon_util.h"
 
 /*
     NOTE: This file is large. Some general groups of functions have
@@ -69,6 +70,7 @@ enum {
     OPTION_WITHDRAW,
 #endif
     OPTION_MOVE_ITEMS,
+    OPTION_HEAL_MONS,
     OPTION_EXIT,
     OPTIONS_COUNT
 };
@@ -850,6 +852,7 @@ void UpdateSpeciesSpritePSS(struct BoxPokemon *boxmon);
 
 static const u8 gText_JustOnePkmn[] = _("There is just one POKéMON with you.");
 static const u8 gText_PartyFull[] = _("Your party is full!");
+static const u8 gText_MonsHealed[] = _("Your POKéMON have been healed.");
 static const u8 gText_Box[] = _("BOX");
 
 struct {
@@ -861,6 +864,7 @@ struct {
     [OPTION_DEPOSIT]    = {COMPOUND_STRING("DEPOSIT POKéMON"),  COMPOUND_STRING("Store POKéMON in your party in BOXES.")},
     [OPTION_MOVE_MONS]  = {COMPOUND_STRING("MOVE POKéMON"),     COMPOUND_STRING("Organize the POKéMON in BOXES and\nin your party.")},
     [OPTION_MOVE_ITEMS] = {COMPOUND_STRING("MOVE ITEMS"),       COMPOUND_STRING("Move items held by any POKéMON\nin a BOX or your party.")},
+    [OPTION_HEAL_MONS]  = {COMPOUND_STRING("HEAL POKéMON"),     COMPOUND_STRING("Heal all party POKéMON.")},
     [OPTION_EXIT]       = {COMPOUND_STRING("SEE YA!"),          COMPOUND_STRING("Return to the previous menu.")}
 };
 
@@ -1550,6 +1554,11 @@ static void Task_PCMainMenu(u8 taskId)
                 FillWindowPixelBuffer(0, PIXEL_FILL(1));
                 AddTextPrinterParameterized2(0, FONT_NORMAL, sMainMenuTexts[task->tSelectedOption].desc, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
             }
+            break;
+        case OPTION_HEAL_MONS:
+            HealPlayerParty();
+            //FillWindowPixelBuffer(0, PIXEL_FILL(1));
+            AddTextPrinterParameterized2(0, FONT_NORMAL, gText_MonsHealed, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
             break;
         case MENU_B_PRESSED:
         case OPTION_EXIT:
