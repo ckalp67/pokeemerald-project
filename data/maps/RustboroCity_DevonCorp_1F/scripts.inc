@@ -78,6 +78,11 @@ RustboroCity_DevonCorp_1F_EventScript_ProductsDisplay::
 	msgbox RustboroCity_DevonCorp_1F_Text_ProductDisplay, MSGBOX_SIGN
 	end
 
+RustboroCity_DevonCorp_1F_EventScript_RocketGrunt_1::
+	trainerbattle_single TRAINER_DEVAN, Route116_Text_DevanIntro, Route116_Text_DevanDefeat
+	msgbox Route116_Text_DevanPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 RustboroCity_DevonCorp_1F_Text_WelcomeToDevonCorp:
 	.string "Hello and welcome to the DEVON\n"
 	.string "CORPORATION.\p"

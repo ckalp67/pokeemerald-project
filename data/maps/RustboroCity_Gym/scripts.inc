@@ -213,8 +213,8 @@ RustboroCity_Gym_Text_MarcDefeat:
 
 RustboroCity_Gym_Text_MarcPostBattle:
 	.string "I have to hand it to our LEADER.\p"
-	.string "It took smarts and sense for her to\n"
-	.string "pick the ROCK type at her young age.$"
+	.string "It took smarts and sense for him to\n"
+	.string "pick the ROCK type at his young age.$"
 
 RustboroCity_Gym_Text_RoxanneIntro:
 	.string "Hello, I am BRANDON, the RUSTBORO\n"

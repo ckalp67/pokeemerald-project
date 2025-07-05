@@ -355,11 +355,43 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Poochyena
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Toedscruel @ Sitrus Berry
+Level: 30
+Ability: Mycelium Might
+Nature: Bold
+- Spikes
+- Stun Spore
+- Supersonic
+- Giga Drain
+
+Crawdaunt @ Mystic Water
+Level: 30
+Ability: Adaptability
+Nature: Naive
+- Night Slash
+- Knock Off
+- Aqua Jet
+- Chilling Water
+
+Cramorant @ Wacan Berry
+Level: 30
+Ability: Gulp Missile
+Nature: Hardy
+- Dual Wingbeat
+- Dive
+- Ice Beam
+- Surf
+
+SPECIES_SANDSLASH_ALOLA @ Occa Berry
+Level: 30
+Ability: Snow cloak
+Nature: Careful
+- Bulldoze
+- Triple Axel
+- Iron Head
+- Swords Dance
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
 Name: GRUNT
@@ -2158,7 +2190,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Cherubi @ Oran Berry
-Level: 18
+Level: 15
 Ability: Chlorophyll
 Nature: Adamant
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -2167,7 +2199,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_MORNING_SUN
 
 Cottonee @ Oran Berry
-Level: 18
+Level: 16
 Ability: Prankster
 Nature: Modest
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -2177,7 +2209,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_FAIRY_WIND
 
 Skiploom @ ITEM_KINGS_ROCK
-Level: 18
+Level: 16
 Ability: Leaf Guard
 Nature: Jolly
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -2585,7 +2617,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Litleo @ Eviolite
-Level: 25
+Level: 21
 Ability: Unnerve
 Nature: Lonely
 - MOVE_WORK_UP
@@ -2594,7 +2626,7 @@ Nature: Lonely
 - MOVE_HEADBUTT
 
 Luxio @ Flame Orb
-Level: 25
+Level: 21
 Ability: Guts
 Nature: Naive
 - MOVE_SPARK
@@ -2602,7 +2634,7 @@ Nature: Naive
 - MOVE_ROAR
 
 Thievul @ Throat Spray
-Level: 25
+Level: 22
 Ability: Stakeout
 Nature: Bold
 - MOVE_NASTY_PLOT
@@ -4899,7 +4931,7 @@ Ability: Galvanize
 Nature: Hardy
 - Body Slam
 - Rock Slide
-- Thunder Wave
+- Stomping Tantrum
 - Fire Punch
 
 Carbink @ Leftovers
@@ -5238,11 +5270,34 @@ Pic: School Kid M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Ralts
-Level: 9
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Dubwool @ Sitrus Berry
+Level: 29
+Ability: Fluffy
+Nature: Adamant
+- Swagger
+- Body Slam
+- Zen Headbutt
+- Thunder Wave
+
+Mudsdale @ Lum Berry
+Level: 28
+Ability: Stamina
+Nature: Careful
+- High Horsepower
+- Curse
+- Rock Slide
+- Close Combat
+
+Gogoat @ Miracle Seed
+Level: 28
+Ability: Sap Sipper
+Nature: Jolly
+- Seed Bomb
+- Synthesis
+- Aerial Ace
+- High Horsepower
 
 === TRAINER_TED ===
 Name: TED
@@ -5357,11 +5412,34 @@ Pic: School Kid F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Shroomish
-Level: 9
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Dachsbun @ Sitrus Berry
+Level: 28
+Ability: Well-Baked Body
+Nature: Careful
+- Work Up
+- Baton Pass
+- Play Rough
+- Psychic Fangs
+
+Shiinotic @ Leftovers
+Level: 30
+Ability: Effect Spore
+Nature: Relaxed
+- Giga Drain
+- Strength Sap
+- Confuse Ray
+- Pollen Puff
+
+Xatu @ Grass Gem
+Level: 29
+Ability: Magic Bounce
+Nature: Timid
+- Stored Power
+- Air Slash
+- Giga Drain
+- Psyshock
 
 === TRAINER_GEORGIA ===
 Name: GEORGIA
@@ -6057,14 +6135,14 @@ Double Battle: No
 AI: Basic Trainer
 
 SPECIES_LECHONK @ Oran Berry
-Level: 18
+Level: 12
 Ability: Thick Fat
 Nature: Quiet
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_ECHOED_VOICE
 
 SPECIES_SMOLIV @ Oran Berry
-Level: 18
+Level: 12
 Ability: Harvest
 Nature: Mild
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -6073,7 +6151,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_RAZOR_LEAF
 
 SPECIES_RATTATA_ALOLA @ Ganlon Berry
-Level: 18
+Level: 12
 Ability: Gluttony
 Nature: Bashful
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -6090,7 +6168,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Skwovet @ Apicot Berry
-Level: 18
+Level: 15
 Ability: Cheek Pouch
 Nature: Relaxed
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -6100,7 +6178,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_SWALLOW
 
 Yungoos @ Oran Berry
-Level: 18
+Level: 15
 Ability: Adaptability
 Nature: Jolly
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -6108,7 +6186,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_WORK_UP
 
 Herdier @ Oran Berry
-Level: 18
+Level: 15
 Ability: Intimidate
 Nature: Jolly
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -6125,7 +6203,7 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Naclstack @ Assault Vest
+Naclstack @ Sitrus Berry
 Level: 25
 Ability: Purifying Salt
 Nature: Sassy
@@ -6195,11 +6273,34 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Machop
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+SPECIES_MAUSHOLD_FOUR @ Loaded Dice
+Level: 28
+Ability: Technician
+Nature: Hardy
+- Play Rough
+- Bullet Seed
+- Double Hit
+- Aerial Ace
+
+Boltund @ Muscle Band
+Level: 28
+Ability: Competitive
+Nature: Hardy
+- Nuzzle
+- Thunderbolt
+- Fire Fang
+- Psychic Fangs
+
+SPECIES_LINOONE_GALAR @ Lansat Berry
+Level: 29
+Ability: Gluttony
+Nature: Adamant
+- Night Slash
+- Shadow Claw
+- Retaliate
+- Body Slam
 
 === TRAINER_BEN ===
 Name: BEN
@@ -6403,7 +6504,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Wooloo @ Oran Berry
-Level: 18
+Level: 13
 Ability: Fluffy
 Nature: Relaxed
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -6411,7 +6512,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_DOUBLE_KICK
 
 Pidove @ Oran Berry
-Level: 18
+Level: 12
 Ability: Super Luck
 Nature: Modest
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -6419,7 +6520,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_QUICK_ATTACK 
 
 Purrloin @ Loaded Dice
-Level: 18
+Level: 13
 Ability: Prankster
 Nature: Adamant
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -6535,14 +6636,14 @@ Double Battle: No
 AI: Basic Trainer
 
 Alomomola @ Damp Rock
-Level: 25
+Level: 24
 Ability: Regenerator
 Nature: Careful
 - Flip Turn
 - Rain Dance
 
-Luvdisc @ Pixie Plate
-Level: 25
+Luvdisc @ Fairy Feather
+Level: 24
 Ability: Swift Swim
 Nature: Modest
 - MOVE_DRAINING_KISS
@@ -6550,7 +6651,7 @@ Nature: Modest
 - MOVE_ATTRACT
 
 Palpitoad @ Rindo Berry
-Level: 25
+Level: 24
 Ability: Swift Swim
 Nature: Calm
 - Bubble Beam
@@ -6559,7 +6660,7 @@ Nature: Calm
 - Supersonic
 
 Arrokuda @ Muscle Band
-Level: 25
+Level: 24
 Ability: Swift Swim
 Nature: Jolly
 - Peck
@@ -9033,7 +9134,7 @@ Double Battle: Yes
 AI: Basic Trainer / Stall
 
 Nidorina @ Black Sludge
-Level: 25
+Level: 23
 Ability: Poison Point
 Nature: Jolly
 - Shadow Claw
@@ -9041,7 +9142,7 @@ Nature: Jolly
 - Protect
 
 Nidorino @ Black Sludge
-Level: 25
+Level: 23
 Ability: Poison Point
 Nature: Adamant
 - Venoshock
@@ -9049,7 +9150,7 @@ Nature: Adamant
 - Protect
 
 Stunky @ Silk Scarf
-Level: 25
+Level: 24
 Ability: Stench
 Nature: Mild
 - Venoshock
@@ -9057,7 +9158,7 @@ Nature: Mild
 - Fury Swipes
 
 Trubbish @ Sitrus Berry
-Level: 25
+Level: 24
 Ability: Aftermath
 Nature: Modest
 - Sludge
@@ -11339,7 +11440,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Cutiefly @ Oran Berry
-Level: 18
+Level: 14
 Ability: Shield Dust
 Nature: Hardy
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -11347,7 +11448,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_STUN_SPORE
 
 Fomantis @ Leftovers
-Level: 18
+Level: 14
 Ability: Contrary
 Nature: Impish
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -11356,7 +11457,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_RAZOR_LEAF
 
 Hatenna @ Oran Berry
-Level: 18
+Level: 15
 Ability: Magic Bounce
 Nature: Timid
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -11374,7 +11475,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Flittle @ Eviolite
-Level: 25
+Level: 22
 Ability: Speed Boost
 Nature: Relaxed
 - MOVE_PLUCK
@@ -11383,7 +11484,7 @@ Nature: Relaxed
 - MOVE_DISARMING_VOICE
 
 Steenee @ ITEM_KINGS_ROCK
-Level: 25
+Level: 22
 Ability: Oblivious
 Nature: Adamant
 - MOVE_PLAY_ROUGH
@@ -11392,7 +11493,7 @@ Nature: Adamant
 - MOVE_ZEN_HEADBUTT
 
 Sinistea @ Sitrus Berry
-Level: 25
+Level: 22
 Ability: Cursed Body
 Nature: Adamant
 - Sucker Punch
@@ -11401,7 +11502,7 @@ Nature: Adamant
 - Confuse Ray
 
 Stufful @ Sitrus Berry
-Level: 25
+Level: 23
 Ability: Fluffy
 Nature: Jolly
 - MOVE_STRENGTH
@@ -11589,7 +11690,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Dottler @ Lum Berry
-Level: 18
+Level: 13
 Ability: Swarm
 Nature: Bold
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -11599,7 +11700,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_CONFUSION
 
 Sewaddle @ Oran Berry
-Level: 18
+Level: 13
 Ability: Swarm
 Nature: Adamant
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -11607,7 +11708,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_BUG_BITE
 
 Joltik @ Oran Berry
-Level: 18
+Level: 13
 Ability: Unnerve
 Nature: Naive
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -11625,7 +11726,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Rellor @ Wide Lens
-Level: 18
+Level: 17
 Ability: Compound Eyes
 Nature: Brave
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -11642,7 +11743,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_MEGA_DRAIN
 
 Yanma @ Oran Berry
-Level: 18
+Level: 16
 Ability: Speed Boost
 Nature: Adamant
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -11657,15 +11758,43 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Stall
 
-Wurmple
-Level: 8
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Ninjask @ Charti Berry
+Level: 28
+Ability: Speed Boost
+Nature: Brave
+- Dual Wingbeat
+- Leech Life
+- U-turn
+- Dig
 
-Nincada
-Level: 8
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+SPECIES_WORMADAM_SANDY @ Wise Glasses
+Level: 28
+Ability: Overcoat
+Nature: Brave
+- Rock Tomb
+- Bug Buzz
+- Giga Drain
+- Earthquake
+
+Araquanid @ Leftovers
+Level: 28
+Ability: Water Bubble
+Nature: Impish
+- Icy Wind
+- Waterfall
+- Lunge
+- Poison Jab
+
+Frosmoth @ Occa Berry
+Level: 28
+Ability: Ice Scales
+Nature: Timid
+- Bug Buzz
+- Stun Spore
+- Infestation
+- Aurora Beam
 
 === TRAINER_DOUG ===
 Name: DOUG
@@ -11724,7 +11853,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Ariados @ Lansat Berry
-Level: 25
+Level: 20
 Ability: Sniper
 Nature: Adamant
 - MOVE_SHADOW_SNEAK
@@ -11733,14 +11862,14 @@ Nature: Adamant
 - MOVE_SWORDS_DANCE
 
 Kricketune @ Metronome
-Level: 25
+Level: 20
 Ability: Technician
 Nature: Adamant
 - MOVE_SING
 - MOVE_FURY_CUTTER
 
 Spidops @ Black Glasses
-Level: 25
+Level: 20
 Ability: Stakeout
 Nature: Jolly
 - MOVE_SILK_TRAP
@@ -11923,11 +12052,25 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Geodude
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Krokorok @ Sitrus Berry
+Level: 30
+Ability: Intimidate
+Nature: Jolly
+- Crunch
+- Stomping Tantrum
+- Aerial Ace
+- Thunder Fang
+
+Lairon @ Sitrus Berry
+Level: 31
+Ability: Heavy Metal
+Nature: Sassy
+- Heavy Slam
+- Rock Slide
+- Aerial Ace
+- Reversal
 
 === TRAINER_ERIC ===
 Name: ERIC
@@ -13353,7 +13496,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Tympole @ Focus Sash
-Level: 18
+Level: 15
 Ability: Swift Swim
 Nature: Bashful
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -13363,7 +13506,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_RAIN_DANCE
 
 Chewtle @ Oran Berry
-Level: 18
+Level: 16
 Ability: Swift Swim
 Nature: Hasty
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -13372,7 +13515,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - MOVE_RAIN_DANCE
 
 Corphish @ Lum Berry
-Level: 18
+Level: 16
 Ability: Adaptability
 Nature: Quiet
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -14256,15 +14399,44 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Geodude
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Stunfisk @ Sitrus Berry
+Level: 30
+Ability: Static
+Nature: Relaxed
+- Sucker Punch
+- Muddy Water
+- Thunderbolt
+- Earth Power
 
-Geodude
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Golem @ Custap Berry
+Level: 30
+Ability: Sturdy
+Nature: Sassy
+- Thunder Punch
+- Fire Punch
+- Rock Slide
+- Bulldoze
+
+Bastiodon @ Lum Berry
+Level: 29
+Ability: Sturdy
+Nature: Hardy
+- Ancient Power
+- Curse
+- Iron Head
+- Body Press
+
+Diggersby @ Leftovers
+Level: 30
+Ability: Huge Power
+Nature: Adamant
+- Dig
+- Quick Attack
+- Wild Charge
+- Bounce
+
 
 === TRAINER_JOHNSON ===
 Name: JOHNSON
@@ -14273,15 +14445,25 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Shroomish
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Octillery @ Focus Sash
+Level: 30
+Ability: Moody
+Nature: Timid
+- Mud Shot
+- Octazooka
+- Protect
+- Icy Wind
 
-Lotad
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Watchog @ Black Glasses
+Level: 31
+Ability: Keen Eye
+Nature: Jolly
+- Confuse Ray
+- Super Fang
+- Double Team
+- Pursuit
 
 === TRAINER_MELINA ===
 Name: MELINA
