@@ -10,8 +10,8 @@
 *.sg1
 *.1bpp
 *.4bpp
-*.8bpp
 *.gbapal
+*.8bpp
 *.lz
 *.rl
 *.latfont
