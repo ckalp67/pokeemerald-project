@@ -65,7 +65,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "RustboroCity_DevonCorp_1F_EventScript_RocketGrunt_1",
-      "flag": "0"
+      "flag": "FLAG_DEVON_ROCKET"
     }
   ],
   "warp_events": [
