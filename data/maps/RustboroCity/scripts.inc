@@ -597,12 +597,11 @@ RustboroCity_EventScript_ReturnGoods::
 	call_if_eq VAR_RESULT, FALSE, RustboroCity_EventScript_BagFull
 	msgbox RustboroCity_Text_PleaseComeWithMe, MSGBOX_DEFAULT
 	closemessage
-	setflag FLAG_RETURNED_DEVON_GOODS
 	setflag FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1
 	clearflag FLAG_DEVON_ROCKET
 	setvar VAR_RUSTBORO_CITY_STATE, 5
 	delay 30
-	warp MAP_RUSTBORO_CITY_DEVON_CORP_1F, 6, 7
+	warp MAP_RUSTBORO_CITY_DEVON_CORP_1F, 5, 7
 	waitstate
 	releaseall
 	end

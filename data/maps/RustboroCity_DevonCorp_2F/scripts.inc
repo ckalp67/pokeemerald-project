@@ -305,12 +305,12 @@ RustboroCity_DevonCorp_2F_EventScript_WorkOnNext::
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_RocketGrunt_2::
-	trainerbattle_single TRAINER_ROCKET_GRUNT_DEVON_2, DevonCorp2F_RocketGrunt2Intro, DevonCorp1F_RocketGrunt2Defeat
+	trainerbattle_single TRAINER_ROCKET_GRUNT_DEVON_2, DevonCorp2F_RocketGrunt2Intro, DevonCorp2F_RocketGrunt2Defeat
 	msgbox DevonCorp2_RocketGrunt2_PostBattle, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_RocketGrunt_3::
-	trainerbattle_single TRAINER_ROCKET_GRUNT_DEVON_3, DevonCorp2F_RocketGrunt3Intro, DevonCorp1F_RocketGrunt3Defeat
+	trainerbattle_single TRAINER_ROCKET_GRUNT_DEVON_3, DevonCorp2F_RocketGrunt3Intro, DevonCorp2F_RocketGrunt3Defeat
 	msgbox DevonCorp2_RocketGrunt3_PostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -322,7 +322,7 @@ RustboroCity_DevonCorp_2F_Text_RocketScientist2:
 	.string "conditions?$"
 
 RustboroCity_DevonCorp_2F_Text_RocketScientist3:
-	.string "Stay away from our experiments!$""
+	.string "Stay away from our experiments!$"
 
 RustboroCity_DevonCorp_2F_Text_RocketScientist4:
 	.string "These thugs better not mess with my\n"
