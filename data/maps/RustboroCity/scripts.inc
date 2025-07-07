@@ -601,7 +601,7 @@ RustboroCity_EventScript_ReturnGoods::
 	clearflag FLAG_DEVON_ROCKET
 	setvar VAR_RUSTBORO_CITY_STATE, 5
 	delay 30
-	warp MAP_RUSTBORO_CITY_DEVON_CORP_1F, 5, 7
+	warp MAP_RUSTBORO_CITY_DEVON_CORP_1F, 10, 6
 	waitstate
 	releaseall
 	end

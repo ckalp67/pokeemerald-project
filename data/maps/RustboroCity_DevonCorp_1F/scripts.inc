@@ -1,10 +1,14 @@
 RustboroCity_DevonCorp_1F_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, RustboroCity_DevonCorp_1F_OnTransition
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, RustboroCity_DevonCorp_1F_OnWarp
 	.byte 0
 
 RustboroCity_DevonCorp_1F_OnTransition:
 	call_if_unset FLAG_RECOVERED_DEVON_GOODS, RustboroCity_DevonCorp_1F_EventScript_BlockStairs
 	end
+
+RustboroCity_DevonCorp_1F_OnWarp::
+	map_script_2 VAR_ROCKET_IN_DEVON, 1, RustboroCity_DevonCorp_1F_EventScript_RocketIsHere
 
 RustboroCity_DevonCorp_1F_EventScript_BlockStairs::
 	setobjectxyperm LOCALID_DEVON_CORP_STAIR_GUARD, 14, 2
@@ -48,6 +52,11 @@ RustboroCity_DevonCorp_1F_EventScript_StairGuard::
 
 RustboroCity_DevonCorp_1F_EventScript_AlwaysWelcome::
 	msgbox RustboroCity_DevonCorp_1F_Text_YoureAlwaysWelcomeHere, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_DevonCorp_1F_EventScript_RocketNonTrainer::
+	msgbox RustboroCity_DevonCorp_1F_Text_RocketGetOut, MSGBOX_DEFAULT
 	release
 	end
 
@@ -107,6 +116,19 @@ RustboroCity_DevonCorp_1F_EventScript_RocketIsHere::
 	msgbox RustboroCity_DevonCorp_1F_RocketIsHere, MSGBOX_DEFAULT
 	releaseall
 	end
+
+RustboroCity_DevonCorp_1F_EventScript_RocketIsHereTalk::
+	lock
+	faceplayer
+	msgbox RustboroCity_DevonCorp_1F_EventScript_RocketIsHereTalkMsg, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_DevonCorp_1F_Text_RocketGetOut:
+	.string "Get out of our business, kid.$"
+
+RustboroCity_DevonCorp_1F_EventScript_RocketIsHereTalkMsg:
+	.string "Please, you have to help MR. STONE!$"
 
 RustboroCity_DevonCorp_1F_RocketIsHere:
 	.string "What is TEAM ROCKET doing here!?\n"

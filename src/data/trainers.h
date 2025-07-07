@@ -796,7 +796,7 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 391
                 MOVE_BULLDOZE,
-                MOVE_TRIPLE_AXEL,
+                MOVE_AVALANCHE,
                 MOVE_IRON_HEAD,
                 MOVE_SWORDS_DANCE,
             },
