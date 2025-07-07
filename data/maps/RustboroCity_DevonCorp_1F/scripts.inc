@@ -34,7 +34,7 @@ RustboroCity_DevonCorp_1F_EventScript_StairGuard::
 	lock
 	faceplayer
 	goto_if_set FLAG_RETURNED_DEVON_GOODS, RustboroCity_DevonCorp_1F_EventScript_AlwaysWelcome
-	goto_if_set FLAG_RECOVERED_DEVON_GOODS, RustboroCity_DevonCorp_1F_EventScript_GotRobbed
+	goto_if_set FLAG_RECOVERED_DEVON_GOODS, RustboroCity_DevonCorp_1F_EventScript_Rocket_Stairs
 	goto_if_set FLAG_DEVON_GOODS_STOLEN, RustboroCity_DevonCorp_1F_EventScript_GotRobbed
 	msgbox RustboroCity_DevonCorp_1F_Text_OnlyAuthorizedPeopleEnter, MSGBOX_DEFAULT
 	release
@@ -50,11 +50,16 @@ RustboroCity_DevonCorp_1F_EventScript_GotRobbed::
 	release
 	end
 
+RustboroCity_DevonCorp_1F_EventScript_Rocket_Stairs::
+	msgbox RustboroCity_DevonCorp_1F_Text_RocketStairs, MSGBOX_DEFAULT
+	release
+	end
+
 RustboroCity_DevonCorp_1F_EventScript_Greeter::
 	lock
 	faceplayer
 	goto_if_set FLAG_RETURNED_DEVON_GOODS, RustboroCity_DevonCorp_1F_EventScript_WelcomeToDevonCorp
-	goto_if_set FLAG_RECOVERED_DEVON_GOODS, RustboroCity_DevonCorp_1F_EventScript_StaffGotRobbed
+	goto_if_set FLAG_RECOVERED_DEVON_GOODS, RustboroCity_DevonCorp_1F_EventScript_Rocket_Secratary
 	goto_if_set FLAG_DEVON_GOODS_STOLEN, RustboroCity_DevonCorp_1F_EventScript_StaffGotRobbed
 	msgbox RustboroCity_DevonCorp_1F_Text_WelcomeToDevonCorp, MSGBOX_DEFAULT
 	release
@@ -70,6 +75,11 @@ RustboroCity_DevonCorp_1F_EventScript_StaffGotRobbed::
 	release
 	end
 
+RustboroCity_DevonCorp_1F_EventScript_Rocket_Secratary::
+	msgbox RustboroCity_DevonCorp_1F_Text_RocketSecretary, MSGBOX_DEFAULT
+	release
+	end
+
 RustboroCity_DevonCorp_1F_EventScript_RocksMetalDisplay::
 	msgbox RustboroCity_DevonCorp_1F_Text_RocksMetalDisplay, MSGBOX_SIGN
 	end
@@ -82,6 +92,14 @@ RustboroCity_DevonCorp_1F_EventScript_RocketGrunt_1::
 	trainerbattle_single TRAINER_ROCKET_GRUNT_DEVON_1, DevonCorp1F_RocketGrunt1Intro, DevonCorp1F_RocketGrunt1Defeat
 	msgbox DevonCorp1_RocketGrunt1_PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+RustboroCity_DevonCorp_1F_Text_RocketStairs:
+	.string "Get upstairs quickly! I'm worried\n"
+	.string "about our PRESIDENT...$"
+
+RustboroCity_DevonCorp_1F_Text_RocketSecretary:
+	.string "Strange people have taken over DEVON\n"
+	.string "CORPORATION!$"
 
 DevonCorp1F_RocketGrunt1Intro:
 	.string "We knew you'd be back with the\n"
@@ -110,11 +128,8 @@ RustboroCity_DevonCorp_1F_Text_ThoseShoesAreOurProduct:
 	.string "using something we made.$"
 
 RustboroCity_DevonCorp_1F_Text_RobberWasntVeryBright:
-	.string "That stolen parcel…\p"
-	.string "Well, sure it's important, but it's not\n"
-	.string "anything that anyone can use.\p"
-	.string "In my estimation, that robber must not\n"
-	.string "have been very bright.$"
+	.string "Please, get these people out of\n"
+	.string "our office!$"
 
 RustboroCity_DevonCorp_1F_Text_SoundsLikeStolenGoodsRecovered:
 	.string "It sounds like they've recovered\n"

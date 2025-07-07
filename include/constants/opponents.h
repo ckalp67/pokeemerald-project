@@ -332,8 +332,8 @@
 #define TRAINER_JAYLEN                      326
 #define TRAINER_DILLON                      327
 #define TRAINER_CALVIN_2                    328
-#define TRAINER_CALVIN_3                    329
-#define TRAINER_CALVIN_4                    330
+#define TRAINER_ROCKET_GRUNT_DEVON_3        329
+#define TRAINER_ROCKET_GRUNT_DEVON_2        330
 #define TRAINER_ROCKET_GRUNT_DEVON_1        331
 #define TRAINER_EDDIE                       332
 #define TRAINER_ALLEN                       333
