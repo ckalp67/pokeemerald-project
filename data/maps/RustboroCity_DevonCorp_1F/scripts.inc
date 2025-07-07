@@ -79,9 +79,19 @@ RustboroCity_DevonCorp_1F_EventScript_ProductsDisplay::
 	end
 
 RustboroCity_DevonCorp_1F_EventScript_RocketGrunt_1::
-	trainerbattle_single TRAINER_DEVAN, Route116_Text_DevanIntro, Route116_Text_DevanDefeat
-	msgbox Route116_Text_DevanPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_ROCKET_GRUNT_DEVON_1, DevonCorp1F_RocketGrunt1Intro, DevonCorp1F_RocketGrunt1Defeat
+	msgbox DevonCorp1_RocketGrunt1_PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+DevonCorp1F_RocketGrunt1Intro:
+	.string "We knew you'd be back with the\n"
+	.string "goods!$"
+
+DevonCorp1F_RocketGrunt1Defeat:
+	.string "You're stronger than you look!$"
+
+DevonCorp1_RocketGrunt1_PostBattle:
+	.string "You'll never beat TEAM ROCKET!$"
 
 RustboroCity_DevonCorp_1F_Text_WelcomeToDevonCorp:
 	.string "Hello and welcome to the DEVON\n"
