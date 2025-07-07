@@ -66,6 +66,20 @@
       "trainer_sight_or_berry_tree_id": "2",
       "script": "RustboroCity_DevonCorp_1F_EventScript_RocketGrunt_1",
       "flag": "FLAG_DEVON_ROCKET"
+    },
+    {
+      "local_id": "LOCALID_DEVON_1F_EMPLOYEE",
+      "graphics_id": "OBJ_EVENT_GFX_MAN_2",
+      "x": 6,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_DEVON_ROCKET"
     }
   ],
   "warp_events": [
@@ -91,7 +105,17 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_ROCKET_IN_DEVON",
+      "var_value": "1",
+      "script": "RustboroCity_DevonCorp_1F_EventScript_RocketIsHere"
+    }
+  ],
   "bg_events": [
     {
       "type": "sign",
